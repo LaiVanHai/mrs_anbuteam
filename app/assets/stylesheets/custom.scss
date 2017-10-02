@@ -11,6 +11,7 @@ $green1: #0f0;
 $blue1: #00f;
 $mediumblue1: #036;
 $blue2: #3B5998;
+$red2: #d12828;
 
 body {
   background-color: $gray-medium-light;
@@ -389,4 +390,16 @@ p {
   background-color: $white !important;
   border: 1px solid $gray-medium-light;
   padding: 10px;
+}
+
+.btn-google {
+  background: $red2;
+  border-radius: 0.5;
+  color: $white;
+  border-width: 1px;
+  border-style: solid;
+
+  a {
+    color: $white;
+  }
 }

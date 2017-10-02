@@ -18,4 +18,6 @@
 //= require chat
 //= require private_pub
 //= require turbolinks
-//= require_tree .
+//= require cable
+//= require movie
+//= require profile
